@@ -23,7 +23,7 @@ public class App {
                 new Question("How do you cheat?", "Copy from your smart friend", 9, "Go on your phone and look up the answers", 10),
 
                 new Question("You managed to slip away, but security is still searching for you. What now?", "Hide until the bell rings", 11, "Make a break for it", 12),
-                new Question("You tripped and fell... They're now forcing you to go to class.", "Accept the consequences", 13, "Refuse", 14),
+                new Question("You tripped and fell, and they're now forcing you to go to class.", "Go back to class", 13, "Refuse", 14),
 
                     new Question("They scold you for a bit, but eventually forgive you. (NEUTRAL ENDING #1)", "Restart", 0, "Exit", -1),
                     new Question("They find out the next day, and ground you for a month! (BAD ENDING #2)", "Restart", 0, "Exit", -1),
@@ -31,7 +31,7 @@ public class App {
                     new Question("Ms. Pascale almost caught you. Later, your smart friend confronts you about it.", "Admit you cheated", 15, "Lie and say you didn't", 16),
                     new Question("Ms. Pascale catches you copying off of your phone, and gives you a 0. (BAD ENDING #1)", "Restart", 0, "Exit", -1),
 
-                    new Question("You hear the bell ring after what feels like forever. What do you do?", "Leave", 17, "Stay in the stall", 18),
+                    new Question("You hear the bell ring after what feels like forever. What do you do?", "Run out into the hallway", 17, "Stay in the stall", 18),
                     new Question("You managed to escape! Where to?", "Go home", 19, "Go to the library", 20),
 
                     new Question("You're sent back to class, and everyone starts laughing at you.", "Ignore them and take the test", 21, "Cry", 22),
