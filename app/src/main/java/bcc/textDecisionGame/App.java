@@ -56,7 +56,7 @@ public class App {
                             new Question("She reveals that she's secretly another student avoiding the same exam, and you two become friends! (SECRET ENDING)", "Restart", 0, "Exit", -1),
     };
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Calculus Midterm");
+        JFrame frame = new JFrame("Calculus Midterm: The Game");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1000, 300);
         frame.setLayout(new BorderLayout());
