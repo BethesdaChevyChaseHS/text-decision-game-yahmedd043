@@ -51,6 +51,7 @@ public class App {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1000, 300);
         frame.setLayout(new BorderLayout());
+        frame.setLocationRelativeTo(null);
 
         JLabel text = new JLabel("Placeholder", SwingConstants.CENTER);
         frame.add(text, BorderLayout.CENTER);
