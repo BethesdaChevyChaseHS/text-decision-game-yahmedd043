@@ -17,37 +17,46 @@ public class App {
         new Question("Your Calculus midterm is next period, but you haven't studied. What do you do?", "Do nothing", 1, "Skip class", 2),
 
             new Question("You're taking the exam, but you have no idea how to answer any of the problems. What do you do?", "Try your best", 3, "Cheat", 4),
-            new Question("Oh no! Security caught you skipping class! What do you do?", "Accept the consequences", 5, "Run away", 6),
+            new Question("How do you skip class?", "Silently slip into the bathroom", 5, "Make a break for it", 6),
 
                 new Question("You get a D... What now?", "Tell your parents", 7, "Don't tell your parents", 8),
-                new Question("How do you cheat?", "Copy from your smart friend", 15, "Go on your phone and look up the answers", 16),
+                new Question("How do you cheat?", "Copy from your smart friend", 9, "Go on your phone and look up the answers", 10),
 
-                new Question("You're sent back to class, and everyone starts laughing at you.", "Ignore them", 9, "Cry", 10),
-                new Question("You ran away successfully, what now?", "Go home", 11, "Go to the library", 12),
+                new Question("You managed to slip away, but security is still searching for you. What now?", "Hide until the bell rings", 11, "Make a break for it", 12),
+                new Question("You tripped and fell... They're now forcing you to go to class.", "Accept the consequences", 13, "Refuse", 14),
 
                     new Question("They scold you for a bit, but eventually forgive you. (NEUTRAL ENDING #1)", "Restart", 0, "Exit", -1),
                     new Question("They find out the next day, and ground you for a month! (BAD ENDING #2)", "Restart", 0, "Exit", -1),
-                    
-                    new Question("You sit down for the test, even though everyone's laughing at you. What now?", "Try your best", 3, "Cheat", 4),
-                    new Question("You get sent to the counsellor's office, she asks you why you broke down.", "Tell her you were stressed", 13, "Tell her you just wanted to avoid the exam", 14),
 
-                    new Question("You watch Tiktok and eat snacks all day. (GOOD ENDING #1)", "Restart", 0, "Exit", -1),
-                    new Question("You study really hard for the test and take it again later. You get an A+! (GOOD ENDING #2)", "Restart", 0, "Exit", -1),
-
-                        new Question("She understands, and lets you go. But your friends start avoiding you... (NEUTRAL ENDING #2)", "Restart", 0, "Exit", -1),
-                        new Question("She reveals that she's secretly another student avoiding the same exam, and you two become friends! (SECRET ENDING)", "Restart", 0, "Exit", -1),
-                    
-                    new Question("Ms. Pascale almost caught you. Later, your smart friend confronts you about it.", "Admit you cheated", 17, "Lie and say you didn't", 18),
+                    new Question("Ms. Pascale almost caught you. Later, your smart friend confronts you about it.", "Admit you cheated", 15, "Lie and say you didn't", 16),
                     new Question("Ms. Pascale catches you copying off of your phone, and gives you a 0. (BAD ENDING #1)", "Restart", 0, "Exit", -1),
 
+                    new Question("You hear the bell ring after what feels like forever. What do you do?", "Leave", 17, "Stay in the stall", 18),
+                    new Question("You managed to escape! Where to?", "Go home", 19, "Go to the library", 20),
+
+                    new Question("You're sent back to class, and everyone starts laughing at you.", "Ignore them and take the test", 21, "Cry", 22),
+                    new Question("You get immediately suspended for disobedience. (BAD ENDING #4)", "Restart", 0, "Exit", -1),
+
                         new Question("Your friend is a bit mad at you, but doesn't tell anyone. You get a B+. (NEUTRAL ENDING #3)", "Restart", 0, "Exit", -1),
-                        new Question("Your friend threatens to tell Ms. Pascale. What do you do?", "Apologize", 19, "Threaten them back", 20),
+                        new Question("Your friend threatens to tell Ms. Pascale. What do you do?", "Apologize", 23, "Threaten them back", 24),
+
+                        new Question("You escape into hallway traffic, and no one catches you. (GOOD ENDING #4)", "Restart", 0, "Exit", -1),
+                        new Question("You fall asleep in the stall... The janitor finds you 4 hours later, and you lie to him about having passed out. He lets you go. (NEUTRAL ENDING #4)", "Restart", 0, "Exit", -1),
+
+                        new Question("You watch Tiktok and eat snacks all day. (GOOD ENDING #1)", "Restart", 0, "Exit", -1),
+                        new Question("You study really hard for the test and take it again later. You get an A+! (GOOD ENDING #2)", "Restart", 0, "Exit", -1),
+
+                        new Question("You sit down for the test, even though everyone's laughing at you. What now?", "Try your best", 3, "Cheat", 4),
+                        new Question("You get sent to the counsellor's office, she asks you why you broke down.", "Tell her you were stressed", 25, "Tell her you just wanted to avoid the exam", 26),
 
                             new Question("Your friend accepts your apology, and offers to help you study next time! You get a B+. (GOOD ENDING #3)", "Restart", 0, "Exit", -1),
-                            new Question("You friend tells Ms. Pascale anyways, and you get a 0. (BAD ENDING #3)", "Restart", 0, "Exit", -1)
+                            new Question("You friend tells Ms. Pascale anyways, and you get a 0. (BAD ENDING #3)", "Restart", 0, "Exit", -1),
+
+                            new Question("She understands, and lets you go. But your friends start avoiding you... (NEUTRAL ENDING #2)", "Restart", 0, "Exit", -1),
+                            new Question("She reveals that she's secretly another student avoiding the same exam, and you two become friends! (SECRET ENDING)", "Restart", 0, "Exit", -1),
     };
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Swing Layout Example");
+        JFrame frame = new JFrame("Calculus Midterm");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1000, 300);
         frame.setLayout(new BorderLayout());
