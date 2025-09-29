@@ -19,7 +19,7 @@ public class App {
             new Question("You're taking the exam, but you have no idea how to answer any of the problems. What do you do?", "Try your best", 3, "Cheat", 4),
             new Question("How do you skip class?", "Silently slip into the bathroom", 5, "Make a break for it", 6),
 
-                new Question("You get a D... What now?", "Tell your parents", 7, "Don't tell your parents", 8),
+                new Question("You got a D... What now?", "Tell your parents", 7, "Don't tell your parents", 8),
                 new Question("How do you cheat?", "Copy from your smart friend", 9, "Go on your phone and look up the answers", 10),
 
                 new Question("You managed to slip away, but security is still searching for you. What now?", "Hide until the bell rings", 11, "Make a break for it", 12),
