@@ -63,7 +63,6 @@ public class App {
         frame.add(buttonPanel, BorderLayout.SOUTH);
 
         loadQuestion(0, text, leftButton, rightButton);
-        loadButtons(0, text, leftButton, rightButton);
 
         frame.setVisible(true);
     }
@@ -72,9 +71,7 @@ public class App {
         text.setText(questions[id].text);
         leftButton.setText(questions[id].option1);
         rightButton.setText(questions[id].option2);
-    }
 
-    public static void loadButtons(int id, JLabel text, JButton leftButton, JButton rightButton) {
         for (ActionListener al : leftButton.getActionListeners()) {
             leftButton.removeActionListener(al);
         }
@@ -85,7 +82,6 @@ public class App {
         leftButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 loadQuestion(questions[id].option1id, text, leftButton, rightButton);
-                loadButtons(questions[id].option1id, text, leftButton, rightButton);
             }
         });
 
@@ -95,7 +91,6 @@ public class App {
                     System.exit(0);
                 } else {
                     loadQuestion(questions[id].option2id, text, leftButton, rightButton);
-                    loadButtons(questions[id].option2id, text, leftButton, rightButton);
                 }
             }
         });
