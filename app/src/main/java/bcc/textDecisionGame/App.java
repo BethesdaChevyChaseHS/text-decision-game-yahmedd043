@@ -49,7 +49,7 @@ public class App {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Swing Layout Example");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(800, 300);
+        frame.setSize(1000, 300);
         frame.setLayout(new BorderLayout());
 
         JLabel text = new JLabel("Placeholder", SwingConstants.CENTER);
