@@ -58,7 +58,7 @@ public class App {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Calculus Midterm: The Game");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(1000, 300);
+        frame.setSize(1200, 300);
         frame.setLayout(new BorderLayout());
         frame.setLocationRelativeTo(null);
 
