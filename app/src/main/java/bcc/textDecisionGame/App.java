@@ -22,7 +22,7 @@ public class App {
                 new Question("You got a D... What now?", "Tell your parents", 7, "Don't tell your parents", 8),
                 new Question("How do you cheat?", "Copy from your smart friend", 9, "Go on your phone and look up the answers", 10),
 
-                new Question("You managed to slip away, but security is still searching for you. What now?", "Hide until the bell rings", 11, "Make a break for it", 12),
+                new Question("You managed to slip away, but security is still searching for you. What now?", "Hide until the bell rings", 11, "Make a break for it while they aren't looking", 12),
                 new Question("You tripped and fell, and they're now forcing you to go to class.", "Go back to class", 13, "Refuse", 14),
 
                     new Question("They scold you for a bit, but eventually forgive you. (NEUTRAL ENDING #1)", "Restart", 0, "Exit", -1),
